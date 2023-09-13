@@ -1,0 +1,1802 @@
+[
+  {
+    "game_administrator": [
+      {
+        "id": "3a11c7ae-073a-498d-b881-6dd1888fee58",
+        "created_at": "2023-09-12T15:03:47.706Z",
+        "updated_at": "2023-09-12T21:41:20.439Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f62f7920-2984-4b2b-b0a1-d37a684dc562",
+        "created_at": "2023-09-12T16:32:08.249Z",
+        "updated_at": "2023-09-12T22:48:59.389Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8f281e3-9955-4372-b0db-81c1aa0b9075",
+        "created_at": "2023-09-13T08:19:29.429Z",
+        "updated_at": "2023-09-13T11:16:34.857Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f11bd3d9-af84-44f0-93d8-260f5f88e448",
+        "created_at": "2023-09-13T09:07:38.745Z",
+        "updated_at": "2023-09-12T15:59:59.442Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c654fca-8368-427d-bd50-ec500f256d19",
+        "created_at": "2023-09-12T20:18:49.355Z",
+        "updated_at": "2023-09-13T10:09:24.550Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "5f13b0ce-c43e-45b3-9c3c-a53b05969a6c",
+        "game_status": "In progress",
+        "game_type": "Action",
+        "start_time": "2023-09-13T01:09:08.889Z",
+        "end_time": "2023-09-13T09:30:35.484Z",
+        "created_at": "2023-09-13T00:21:12.994Z",
+        "updated_at": "2023-09-13T04:36:25.136Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e11b3dda-db95-41da-848a-96fefa889606",
+        "game_status": "Completed",
+        "game_type": "Strategy",
+        "start_time": "2023-09-12T18:55:40.540Z",
+        "end_time": "2023-09-12T22:46:11.497Z",
+        "created_at": "2023-09-13T00:34:57.978Z",
+        "updated_at": "2023-09-12T18:00:46.203Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "23adf4e4-b54f-41bf-bac8-f8dba8c1acc7",
+        "game_status": "Upcoming",
+        "game_type": "Adventure",
+        "start_time": "2023-09-13T07:48:09.493Z",
+        "end_time": "2023-09-13T06:46:00.765Z",
+        "created_at": "2023-09-12T21:15:05.841Z",
+        "updated_at": "2023-09-13T05:45:53.658Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3bf4f2c1-adc0-4645-936f-8abeeb742268",
+        "game_status": "Cancelled",
+        "game_type": "Sports",
+        "start_time": "2023-09-12T14:43:29.674Z",
+        "end_time": "2023-09-13T04:12:00.594Z",
+        "created_at": "2023-09-12T18:59:13.434Z",
+        "updated_at": "2023-09-13T07:44:54.095Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bc165b13-12e0-4fab-9d98-65ee0b636f5f",
+        "game_status": "Paused",
+        "game_type": "Puzzle",
+        "start_time": "2023-09-12T23:17:21.153Z",
+        "end_time": "2023-09-13T05:21:24.934Z",
+        "created_at": "2023-09-12T16:38:59.323Z",
+        "updated_at": "2023-09-12T17:48:13.922Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "61ecffae-9795-49b0-8e9c-752b9274efb7",
+        "player_name": "Alex",
+        "created_at": "2023-09-12T21:05:54.964Z",
+        "updated_at": "2023-09-13T03:04:11.295Z",
+        "game_id": "e11b3dda-db95-41da-848a-96fefa889606",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dfe9614-7477-4c6d-8e7f-ea7f2645fb4c",
+        "player_name": "Emily",
+        "created_at": "2023-09-13T07:44:42.705Z",
+        "updated_at": "2023-09-12T17:33:57.371Z",
+        "game_id": "e11b3dda-db95-41da-848a-96fefa889606",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46a2a0bc-3a9d-4d0c-ab25-61568458a904",
+        "player_name": "Daniel",
+        "created_at": "2023-09-13T03:20:51.935Z",
+        "updated_at": "2023-09-12T16:38:48.634Z",
+        "game_id": "5f13b0ce-c43e-45b3-9c3c-a53b05969a6c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c425c3da-229c-43b6-a4f5-326005739a2d",
+        "player_name": "Olivia",
+        "created_at": "2023-09-12T23:38:10.738Z",
+        "updated_at": "2023-09-13T11:15:03.035Z",
+        "game_id": "e11b3dda-db95-41da-848a-96fefa889606",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "731bfda1-0f51-460a-93ba-4b60b5fa968c",
+        "player_name": "James",
+        "created_at": "2023-09-13T00:25:59.663Z",
+        "updated_at": "2023-09-12T17:48:30.518Z",
+        "game_id": "e11b3dda-db95-41da-848a-96fefa889606",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f2884a16-abd6-4108-8989-e506ce2e9ef0",
+        "email": "Samanta11@gmail.com",
+        "firstName": "Sophia",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53663034",
+        "tenantId": null
+      },
+      {
+        "reference": "e2587097-98d2-4b13-a917-572f61480f9d",
+        "email": "Owen53@yahoo.com",
+        "firstName": "Noe",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/487.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "07969f52-db71-48e1-ba6d-21ff95266b8c",
+        "email": "Bradley.Koss73@gmail.com",
+        "firstName": "Cloyd",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/577.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "024ee5b6-a8bc-47e8-bea0-fafddc596728",
+        "email": "Edwina69@gmail.com",
+        "firstName": "Orin",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/867.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cc420ca6-50d7-4ea9-9325-458a764a12b5",
+        "email": "Alyson_Schultz69@gmail.com",
+        "firstName": "Tabitha",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51825382",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game_administrator": [
+      {
+        "id": "b202f9c8-c1fd-422a-bf0d-a38e4e28e41f",
+        "created_at": "2023-09-13T05:40:25.681Z",
+        "updated_at": "2023-09-13T11:05:26.334Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff0290b1-fee8-4c74-a6dd-0936c9f61185",
+        "created_at": "2023-09-13T06:16:05.436Z",
+        "updated_at": "2023-09-13T02:32:12.238Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e3ca00e-add8-47ec-bea0-cc810a0333ee",
+        "created_at": "2023-09-12T18:37:00.762Z",
+        "updated_at": "2023-09-12T22:13:29.544Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d0b9e0a-b820-4c90-81fc-779ca1592810",
+        "created_at": "2023-09-13T07:09:34.590Z",
+        "updated_at": "2023-09-12T23:12:57.642Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a098804-cb85-48e8-bc8c-1ff812fc8064",
+        "created_at": "2023-09-13T03:46:45.314Z",
+        "updated_at": "2023-09-12T14:01:45.765Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "bb2dc8fd-32f9-45e4-951f-a9163954fd19",
+        "game_status": "In progress",
+        "game_type": "Action",
+        "start_time": "2023-09-13T02:27:12.768Z",
+        "end_time": "2023-09-12T23:31:16.266Z",
+        "created_at": "2023-09-13T11:53:19.114Z",
+        "updated_at": "2023-09-13T12:04:52.513Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cc8afba3-1555-44fb-b239-e91a3a6d2233",
+        "game_status": "Completed",
+        "game_type": "Strategy",
+        "start_time": "2023-09-13T06:25:37.817Z",
+        "end_time": "2023-09-13T08:56:20.188Z",
+        "created_at": "2023-09-12T15:14:54.137Z",
+        "updated_at": "2023-09-12T21:43:11.735Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4688b959-4530-4d60-b6c5-b2d8c2f718f8",
+        "game_status": "Cancelled",
+        "game_type": "Adventure",
+        "start_time": "2023-09-13T08:11:24.057Z",
+        "end_time": "2023-09-13T06:11:15.383Z",
+        "created_at": "2023-09-13T10:52:43.038Z",
+        "updated_at": "2023-09-13T09:50:25.153Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8cce877b-71dd-4e23-bb05-eebadf6640a8",
+        "game_status": "Upcoming",
+        "game_type": "Sports",
+        "start_time": "2023-09-12T18:57:21.859Z",
+        "end_time": "2023-09-12T21:34:06.038Z",
+        "created_at": "2023-09-12T17:09:05.579Z",
+        "updated_at": "2023-09-12T17:29:13.938Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "45bca589-0d3b-4560-833b-fc2e7c4aade1",
+        "game_status": "Paused",
+        "game_type": "Puzzle",
+        "start_time": "2023-09-13T07:28:09.703Z",
+        "end_time": "2023-09-13T11:35:38.394Z",
+        "created_at": "2023-09-12T13:48:20.464Z",
+        "updated_at": "2023-09-13T02:40:38.992Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "29770e74-8541-4fba-8ac5-3dac4747396c",
+        "player_name": "John123",
+        "created_at": "2023-09-12T20:04:29.528Z",
+        "updated_at": "2023-09-13T01:57:22.126Z",
+        "game_id": "cc8afba3-1555-44fb-b239-e91a3a6d2233",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fd332a8-0469-431a-b1c9-6fcb3d6732e9",
+        "player_name": "Jane456",
+        "created_at": "2023-09-12T23:33:47.805Z",
+        "updated_at": "2023-09-13T03:39:33.337Z",
+        "game_id": "bb2dc8fd-32f9-45e4-951f-a9163954fd19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c7d7bbe-319f-44e2-a079-8650f28ace5b",
+        "player_name": "Mike789",
+        "created_at": "2023-09-12T22:51:06.711Z",
+        "updated_at": "2023-09-12T17:14:14.341Z",
+        "game_id": "bb2dc8fd-32f9-45e4-951f-a9163954fd19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c5f3a49-7c92-47bd-86bb-85bda3bab81c",
+        "player_name": "Sarah321",
+        "created_at": "2023-09-12T17:29:26.043Z",
+        "updated_at": "2023-09-13T02:10:12.372Z",
+        "game_id": "cc8afba3-1555-44fb-b239-e91a3a6d2233",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cab6a29f-9d86-4c58-be4b-ba364829a7b5",
+        "player_name": "Rob654",
+        "created_at": "2023-09-13T07:42:26.072Z",
+        "updated_at": "2023-09-13T05:05:09.617Z",
+        "game_id": "8cce877b-71dd-4e23-bb05-eebadf6640a8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1dc661a4-f835-48a2-96d2-aa64d58d5107",
+        "email": "Sanford_Walker@gmail.com",
+        "firstName": "Eliane",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/913.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "84b149c1-dc75-4a3d-8b19-6dfd4353c19b",
+        "email": "Madilyn_Sawayn9@gmail.com",
+        "firstName": "Kaylie",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28268579",
+        "tenantId": null
+      },
+      {
+        "reference": "679cd131-c671-460c-baa7-115830f2c887",
+        "email": "Margaretta55@gmail.com",
+        "firstName": "Milford",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/812.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bcadf16e-bc45-4117-81b8-e6d86cec4670",
+        "email": "Hannah_Dare83@yahoo.com",
+        "firstName": "Lexie",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70119916",
+        "tenantId": null
+      },
+      {
+        "reference": "4f810342-b4da-4cdc-b05a-c727ae5ce1b0",
+        "email": "Ryan_Halvorson38@yahoo.com",
+        "firstName": "Americo",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31431008",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game_administrator": [
+      {
+        "id": "02880f95-9ffd-44b1-9815-dc783a130328",
+        "created_at": "2023-09-12T16:36:51.396Z",
+        "updated_at": "2023-09-13T12:02:52.461Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b25375d7-d011-4b6b-9e96-2ec35d055159",
+        "created_at": "2023-09-12T23:47:38.727Z",
+        "updated_at": "2023-09-12T15:49:33.856Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b075dfd-31de-4321-95f8-8e0f00980599",
+        "created_at": "2023-09-12T21:32:06.629Z",
+        "updated_at": "2023-09-12T23:06:47.831Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "257634ac-493e-4c52-b5d0-78120d08e051",
+        "created_at": "2023-09-13T04:39:37.281Z",
+        "updated_at": "2023-09-12T17:24:50.515Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41ee893d-be06-4a85-bd83-343b9fff9394",
+        "created_at": "2023-09-12T13:35:21.539Z",
+        "updated_at": "2023-09-12T23:41:20.107Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "e87cf595-8250-48d4-923b-8d5a785504b1",
+        "game_status": "In progress",
+        "game_type": "Action",
+        "start_time": "2023-09-12T22:47:04.911Z",
+        "end_time": "2023-09-13T10:58:52.305Z",
+        "created_at": "2023-09-13T01:21:11.772Z",
+        "updated_at": "2023-09-12T18:13:27.645Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6120a7f6-eb54-4f7f-a8c4-c5da4cd40413",
+        "game_status": "Completed",
+        "game_type": "Strategy",
+        "start_time": "2023-09-13T02:01:56.387Z",
+        "end_time": "2023-09-12T12:42:35.588Z",
+        "created_at": "2023-09-13T01:45:59.406Z",
+        "updated_at": "2023-09-13T08:47:51.881Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "736ae865-23fe-44ba-956e-2e5fbbdf2992",
+        "game_status": "Upcoming",
+        "game_type": "Sports",
+        "start_time": "2023-09-13T04:46:06.561Z",
+        "end_time": "2023-09-12T15:02:40.511Z",
+        "created_at": "2023-09-12T15:31:14.628Z",
+        "updated_at": "2023-09-12T17:07:20.053Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fd914c56-1f87-4f6c-8333-5fc3778c21f4",
+        "game_status": "Cancelled",
+        "game_type": "Adventure",
+        "start_time": "2023-09-13T03:24:39.443Z",
+        "end_time": "2023-09-12T15:43:48.093Z",
+        "created_at": "2023-09-12T18:10:41.652Z",
+        "updated_at": "2023-09-13T10:59:09.330Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "85920fd1-df35-47a5-b14e-9564ef34a5e9",
+        "game_status": "Paused",
+        "game_type": "Puzzle",
+        "start_time": "2023-09-13T06:44:17.156Z",
+        "end_time": "2023-09-13T06:32:18.129Z",
+        "created_at": "2023-09-13T08:06:17.443Z",
+        "updated_at": "2023-09-13T06:03:52.572Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "2a2a675b-f472-41c2-84dc-bc2c7167a613",
+        "player_name": "Alex",
+        "created_at": "2023-09-13T07:12:32.551Z",
+        "updated_at": "2023-09-13T06:38:43.155Z",
+        "game_id": "fd914c56-1f87-4f6c-8333-5fc3778c21f4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ae6d8bd-6373-4b13-9d20-e96f53b72ef9",
+        "player_name": "Emily",
+        "created_at": "2023-09-13T01:05:30.822Z",
+        "updated_at": "2023-09-12T20:40:39.476Z",
+        "game_id": "fd914c56-1f87-4f6c-8333-5fc3778c21f4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a69d183-99ae-492d-843f-5230814b9491",
+        "player_name": "Ryan",
+        "created_at": "2023-09-13T07:53:43.160Z",
+        "updated_at": "2023-09-13T09:04:15.000Z",
+        "game_id": "fd914c56-1f87-4f6c-8333-5fc3778c21f4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c23d815-c35a-4c67-b143-7f0fa1e5e07f",
+        "player_name": "Olivia",
+        "created_at": "2023-09-12T17:59:28.889Z",
+        "updated_at": "2023-09-13T10:52:56.226Z",
+        "game_id": "736ae865-23fe-44ba-956e-2e5fbbdf2992",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ce90973-b4ec-489b-93c6-b4e65f157c5e",
+        "player_name": "Daniel",
+        "created_at": "2023-09-12T17:16:20.358Z",
+        "updated_at": "2023-09-12T15:50:47.615Z",
+        "game_id": "e87cf595-8250-48d4-923b-8d5a785504b1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ca9d9053-ae5d-4ca9-81ac-777e703eabfa",
+        "email": "Travon.Hermann@gmail.com",
+        "firstName": "Sonia",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58160682",
+        "tenantId": null
+      },
+      {
+        "reference": "5929b19d-da84-4da2-b1f4-25a888d2d010",
+        "email": "Tre.Steuber90@hotmail.com",
+        "firstName": "Elfrieda",
+        "lastName": "Marvin-Runolfsson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9dc62b37-1836-442d-a828-a7356708f082",
+        "email": "Alvera.Nitzsche35@hotmail.com",
+        "firstName": "Chanel",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/813.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3a3ac7f0-4bfa-4916-9d24-9401cea787ba",
+        "email": "Fredy.Jacobi61@hotmail.com",
+        "firstName": "Celine",
+        "lastName": "Schneider-Maggio",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/34.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9fc70b26-cbf7-4e05-aab9-5f3089878b15",
+        "email": "Blanca58@hotmail.com",
+        "firstName": "Tre",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1075.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game_administrator": [
+      {
+        "id": "b18adfa0-a4e2-4725-8cca-bf91b0a7699e",
+        "created_at": "2023-09-13T01:33:20.928Z",
+        "updated_at": "2023-09-13T04:32:21.933Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd21570e-3aa2-4c8f-b22d-eb76841550d2",
+        "created_at": "2023-09-13T06:16:40.639Z",
+        "updated_at": "2023-09-13T07:48:09.904Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a874157-e658-438d-88c1-c3025f412ab7",
+        "created_at": "2023-09-13T06:16:50.163Z",
+        "updated_at": "2023-09-13T11:00:41.650Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25ad8fbf-b546-4eb7-882f-b8f928af3818",
+        "created_at": "2023-09-13T10:08:12.378Z",
+        "updated_at": "2023-09-12T20:24:32.194Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fee4d653-eb14-488b-b0ca-7e9761dae832",
+        "created_at": "2023-09-12T14:53:15.003Z",
+        "updated_at": "2023-09-13T05:08:28.902Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "5910b76a-745d-43a7-91a7-34280be92296",
+        "game_status": "In progress",
+        "game_type": "Action",
+        "start_time": "2023-09-13T06:51:05.253Z",
+        "end_time": "2023-09-13T04:05:16.923Z",
+        "created_at": "2023-09-12T18:36:18.529Z",
+        "updated_at": "2023-09-13T03:47:19.726Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "22e0282f-46f1-4693-93e1-6512cd04f8e8",
+        "game_status": "Completed",
+        "game_type": "Strategy",
+        "start_time": "2023-09-13T08:22:53.724Z",
+        "end_time": "2023-09-12T16:02:31.858Z",
+        "created_at": "2023-09-12T19:06:47.623Z",
+        "updated_at": "2023-09-12T16:37:49.086Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3d2b2a7a-8e60-4fef-810d-951b3a88e079",
+        "game_status": "Upcoming",
+        "game_type": "Adventure",
+        "start_time": "2023-09-13T01:59:21.600Z",
+        "end_time": "2023-09-12T14:27:35.629Z",
+        "created_at": "2023-09-12T18:26:14.108Z",
+        "updated_at": "2023-09-13T05:57:21.714Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "47dff966-f37d-44ad-a8db-d47f8687f44c",
+        "game_status": "Cancelled",
+        "game_type": "Sports",
+        "start_time": "2023-09-13T08:45:43.625Z",
+        "end_time": "2023-09-13T08:25:49.938Z",
+        "created_at": "2023-09-12T17:56:19.855Z",
+        "updated_at": "2023-09-12T14:48:02.400Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f42fc68b-d658-4d7e-ab76-69ba3b825e28",
+        "game_status": "Paused",
+        "game_type": "Puzzle",
+        "start_time": "2023-09-12T21:51:54.895Z",
+        "end_time": "2023-09-12T21:07:46.169Z",
+        "created_at": "2023-09-13T03:41:18.424Z",
+        "updated_at": "2023-09-13T01:45:09.143Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "419eb4c2-cdfc-4b12-a52a-7fb3a7931663",
+        "player_name": "Tom",
+        "created_at": "2023-09-12T17:18:47.524Z",
+        "updated_at": "2023-09-13T00:30:54.488Z",
+        "game_id": "5910b76a-745d-43a7-91a7-34280be92296",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c664fb9-993c-47e4-beaf-10121b24c96e",
+        "player_name": "Emma",
+        "created_at": "2023-09-13T06:19:59.965Z",
+        "updated_at": "2023-09-12T19:14:59.463Z",
+        "game_id": "3d2b2a7a-8e60-4fef-810d-951b3a88e079",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60bf5150-8bf8-449e-ab72-551cc0d9d2e3",
+        "player_name": "Liam",
+        "created_at": "2023-09-13T12:01:08.828Z",
+        "updated_at": "2023-09-12T13:35:09.142Z",
+        "game_id": "22e0282f-46f1-4693-93e1-6512cd04f8e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7322f206-a5c6-4938-af7b-3559dcaf3552",
+        "player_name": "Olivia",
+        "created_at": "2023-09-13T04:30:10.499Z",
+        "updated_at": "2023-09-13T09:24:39.100Z",
+        "game_id": "f42fc68b-d658-4d7e-ab76-69ba3b825e28",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2137014-8984-44eb-a6f9-a85e59b4fd41",
+        "player_name": "Noah",
+        "created_at": "2023-09-12T22:57:03.496Z",
+        "updated_at": "2023-09-12T21:47:05.145Z",
+        "game_id": "3d2b2a7a-8e60-4fef-810d-951b3a88e079",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "03f14a24-a756-47a6-8b71-bdb092b4d2fb",
+        "email": "Gregorio.Grant83@hotmail.com",
+        "firstName": "Jaron",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/619.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "85eb077a-cd3d-41e2-b06c-dc08cf95f440",
+        "email": "Ally93@yahoo.com",
+        "firstName": "Gavin",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/306.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4df14abd-a670-486b-9666-232368c6b6d6",
+        "email": "Ida_Kuhlman@yahoo.com",
+        "firstName": "Maegan",
+        "lastName": "Roberts-Mante",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79772141",
+        "tenantId": null
+      },
+      {
+        "reference": "0010502e-b323-45c1-8c58-3c060e474ad4",
+        "email": "Hermina_Fay@yahoo.com",
+        "firstName": "Patience",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/645.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "af5e519b-9603-4a6a-ab6d-ee446eff5469",
+        "email": "Frank.Gleason73@yahoo.com",
+        "firstName": "Alicia",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96934090",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game_administrator": [
+      {
+        "id": "6f46b8ab-3a96-4241-b0c3-0dd147284bca",
+        "created_at": "2023-09-13T08:35:40.335Z",
+        "updated_at": "2023-09-13T03:47:00.391Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcd8eb4f-52b4-4adb-8123-7e63aae668a6",
+        "created_at": "2023-09-13T07:53:24.472Z",
+        "updated_at": "2023-09-12T13:45:16.009Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ba7cc07-f973-44d4-a4d4-72b952cf9e38",
+        "created_at": "2023-09-12T22:04:00.521Z",
+        "updated_at": "2023-09-12T17:31:29.464Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb7b3ef1-441b-42aa-8e90-53aad39e705e",
+        "created_at": "2023-09-12T14:16:33.309Z",
+        "updated_at": "2023-09-13T10:12:37.450Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28c9af45-b49d-46bf-bba2-475b011dae36",
+        "created_at": "2023-09-13T11:55:57.803Z",
+        "updated_at": "2023-09-13T11:34:52.310Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "c244fa72-da11-47a3-ae7f-f3f3528dd7d5",
+        "game_status": "In progress",
+        "game_type": "Strategy",
+        "start_time": "2023-09-12T19:23:13.971Z",
+        "end_time": "2023-09-12T18:03:52.435Z",
+        "created_at": "2023-09-13T06:53:50.581Z",
+        "updated_at": "2023-09-12T23:36:01.228Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bd64fb4c-fe8e-4625-9355-1f2261256e2f",
+        "game_status": "Completed",
+        "game_type": "Action",
+        "start_time": "2023-09-12T19:38:35.484Z",
+        "end_time": "2023-09-13T08:24:11.115Z",
+        "created_at": "2023-09-13T02:16:49.222Z",
+        "updated_at": "2023-09-13T05:42:33.560Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a1afe0b2-f156-47b1-8956-5a7506f0a961",
+        "game_status": "Upcoming",
+        "game_type": "Adventure",
+        "start_time": "2023-09-13T12:13:21.336Z",
+        "end_time": "2023-09-12T13:37:54.607Z",
+        "created_at": "2023-09-13T07:00:49.025Z",
+        "updated_at": "2023-09-12T12:35:54.371Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "eecc7b72-8ab4-4250-85df-d3e28c4904d9",
+        "game_status": "Paused",
+        "game_type": "Sports",
+        "start_time": "2023-09-12T17:23:58.811Z",
+        "end_time": "2023-09-13T01:06:01.983Z",
+        "created_at": "2023-09-13T03:37:33.716Z",
+        "updated_at": "2023-09-12T14:18:36.085Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0fe3cfa6-d0cb-4d96-bdba-8e30e3074c21",
+        "game_status": "Cancelled",
+        "game_type": "Puzzle",
+        "start_time": "2023-09-12T16:22:59.941Z",
+        "end_time": "2023-09-12T15:40:50.625Z",
+        "created_at": "2023-09-12T15:46:27.066Z",
+        "updated_at": "2023-09-12T18:48:28.002Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "045c0c2b-8aad-413c-b360-deecf6931491",
+        "player_name": "Alex",
+        "created_at": "2023-09-13T03:16:11.437Z",
+        "updated_at": "2023-09-12T13:11:21.581Z",
+        "game_id": "a1afe0b2-f156-47b1-8956-5a7506f0a961",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b2f71de-d0d1-457c-9029-d1d521cc27d1",
+        "player_name": "Olivia",
+        "created_at": "2023-09-12T23:26:21.814Z",
+        "updated_at": "2023-09-13T12:13:49.121Z",
+        "game_id": "eecc7b72-8ab4-4250-85df-d3e28c4904d9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a348c2ef-2af3-459d-936a-b5b3dc2ad325",
+        "player_name": "Ethan",
+        "created_at": "2023-09-13T04:00:22.965Z",
+        "updated_at": "2023-09-12T23:22:45.648Z",
+        "game_id": "c244fa72-da11-47a3-ae7f-f3f3528dd7d5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5768861-9efe-41fe-83ab-f62c836e4894",
+        "player_name": "Mia",
+        "created_at": "2023-09-13T02:47:12.299Z",
+        "updated_at": "2023-09-12T17:28:47.962Z",
+        "game_id": "a1afe0b2-f156-47b1-8956-5a7506f0a961",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81b5213a-8eb9-466b-8ff7-b486037faacf",
+        "player_name": "Liam",
+        "created_at": "2023-09-12T16:05:51.873Z",
+        "updated_at": "2023-09-12T18:19:57.739Z",
+        "game_id": "c244fa72-da11-47a3-ae7f-f3f3528dd7d5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d9a3c4dd-fec7-451e-9b69-eb302a6082a6",
+        "email": "Cheyenne.Johnson@gmail.com",
+        "firstName": "Alysson",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29323244",
+        "tenantId": null
+      },
+      {
+        "reference": "1cc63369-eb12-4794-9ed4-7da040119987",
+        "email": "Neoma.Leuschke15@hotmail.com",
+        "firstName": "Terrance",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23132679",
+        "tenantId": null
+      },
+      {
+        "reference": "f9bbc07d-63ce-4f76-a8cc-16e7de746df7",
+        "email": "Zita.Armstrong@yahoo.com",
+        "firstName": "Cynthia",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/431.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "826053ab-8418-4ed3-8bb8-bc1d3cc9455c",
+        "email": "Hadley.Kuhic84@hotmail.com",
+        "firstName": "Shakira",
+        "lastName": "Stracke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/752.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ba726910-0dfc-4b33-9fef-5b9a716a7a03",
+        "email": "Ned_Gulgowski91@gmail.com",
+        "firstName": "Rosina",
+        "lastName": "Kautzer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73021436",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game_administrator": [
+      {
+        "id": "9812a1e4-70a6-4052-80a2-35a624dadb76",
+        "created_at": "2023-09-13T00:22:56.864Z",
+        "updated_at": "2023-09-12T20:43:28.916Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02a7ba6e-f6b9-49a4-b7b1-2d62cea00d34",
+        "created_at": "2023-09-12T21:23:28.764Z",
+        "updated_at": "2023-09-13T11:18:37.120Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c0c78b3-899a-47a1-b667-1cff89d2e33a",
+        "created_at": "2023-09-12T12:57:54.013Z",
+        "updated_at": "2023-09-12T16:22:33.454Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de923a4a-e94d-4f8d-9aa4-3914b299432b",
+        "created_at": "2023-09-12T23:51:33.189Z",
+        "updated_at": "2023-09-12T22:01:22.641Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5315cb60-3a5a-453c-b72d-6d129e8d42b8",
+        "created_at": "2023-09-12T14:18:20.561Z",
+        "updated_at": "2023-09-13T08:15:07.981Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "9c5ef5b1-d38e-4f30-8541-205494be79bf",
+        "game_status": "In progress",
+        "game_type": "Strategy",
+        "start_time": "2023-09-12T12:33:27.670Z",
+        "end_time": "2023-09-12T12:37:07.731Z",
+        "created_at": "2023-09-12T14:07:50.638Z",
+        "updated_at": "2023-09-13T02:51:16.336Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a986a858-9cd2-44f3-847f-549440fe1ac4",
+        "game_status": "Completed",
+        "game_type": "Action",
+        "start_time": "2023-09-13T06:03:39.494Z",
+        "end_time": "2023-09-12T16:34:18.815Z",
+        "created_at": "2023-09-13T04:52:53.835Z",
+        "updated_at": "2023-09-12T13:01:18.858Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2ac13e7f-fd4a-4d70-a21f-97e5445a4838",
+        "game_status": "Cancelled",
+        "game_type": "Adventure",
+        "start_time": "2023-09-13T03:18:00.635Z",
+        "end_time": "2023-09-13T01:38:12.519Z",
+        "created_at": "2023-09-13T02:38:54.695Z",
+        "updated_at": "2023-09-12T13:49:36.866Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "48d67915-040a-4cbd-92fe-4ca6945a088d",
+        "game_status": "Paused",
+        "game_type": "Sports",
+        "start_time": "2023-09-13T00:17:38.808Z",
+        "end_time": "2023-09-13T11:43:04.660Z",
+        "created_at": "2023-09-13T06:37:25.744Z",
+        "updated_at": "2023-09-12T22:27:24.465Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6c2fb101-70ec-480a-99ae-c9250c11e326",
+        "game_status": "Pending",
+        "game_type": "Puzzle",
+        "start_time": "2023-09-13T08:47:49.591Z",
+        "end_time": "2023-09-12T19:06:36.273Z",
+        "created_at": "2023-09-13T05:00:54.096Z",
+        "updated_at": "2023-09-12T22:49:19.989Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "39815a08-62c8-4b33-9b50-fb6420c8aa4c",
+        "player_name": "Player1",
+        "created_at": "2023-09-13T10:11:29.089Z",
+        "updated_at": "2023-09-13T10:06:22.146Z",
+        "game_id": "2ac13e7f-fd4a-4d70-a21f-97e5445a4838",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cffddd0a-cbf2-4efc-8bbf-129fc5b638c9",
+        "player_name": "Player2",
+        "created_at": "2023-09-13T08:59:41.394Z",
+        "updated_at": "2023-09-12T18:15:20.292Z",
+        "game_id": "a986a858-9cd2-44f3-847f-549440fe1ac4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96c57513-6e69-4a53-9d51-967b8c64df2c",
+        "player_name": "Player3",
+        "created_at": "2023-09-13T10:10:57.537Z",
+        "updated_at": "2023-09-12T16:37:41.289Z",
+        "game_id": "6c2fb101-70ec-480a-99ae-c9250c11e326",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5221a85-1a57-4f55-a4ce-1e0689f7e9c5",
+        "player_name": "Player4",
+        "created_at": "2023-09-12T20:59:23.886Z",
+        "updated_at": "2023-09-12T22:34:03.404Z",
+        "game_id": "2ac13e7f-fd4a-4d70-a21f-97e5445a4838",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6cc2edd-7164-4f6c-8392-79abe5398a4f",
+        "player_name": "Player5",
+        "created_at": "2023-09-12T20:35:16.056Z",
+        "updated_at": "2023-09-13T03:31:33.030Z",
+        "game_id": "9c5ef5b1-d38e-4f30-8541-205494be79bf",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "13ea4a61-4f78-4675-95c3-cbe25eb4123a",
+        "email": "Ella.Larkin60@gmail.com",
+        "firstName": "Ewell",
+        "lastName": "Beatty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60642721",
+        "tenantId": null
+      },
+      {
+        "reference": "47ed3e34-f92d-45df-9f0b-3e20c2a21070",
+        "email": "Diana.Marvin@gmail.com",
+        "firstName": "Joseph",
+        "lastName": "Gorczany",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57186800",
+        "tenantId": null
+      },
+      {
+        "reference": "2739130e-76e9-491b-8524-6c3fde3de873",
+        "email": "Estrella35@hotmail.com",
+        "firstName": "Luther",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/563.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79eb7520-d4ad-4722-84a7-acb681867eb7",
+        "email": "Mable55@gmail.com",
+        "firstName": "Jocelyn",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/493.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0a3ff9d1-ef02-49a4-b64f-7fade621410e",
+        "email": "Verlie.Emard91@gmail.com",
+        "firstName": "Lisa",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1005.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game_administrator": [
+      {
+        "id": "e2b35c48-276a-4fca-9a1c-c9906b67fb14",
+        "created_at": "2023-09-13T09:14:27.067Z",
+        "updated_at": "2023-09-13T06:34:06.397Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33aedde7-f754-4e4b-81ec-d5034e42dd05",
+        "created_at": "2023-09-13T03:27:59.476Z",
+        "updated_at": "2023-09-12T13:24:10.051Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1bac67e-15d4-46c6-8081-42eeff4b303d",
+        "created_at": "2023-09-13T09:43:30.959Z",
+        "updated_at": "2023-09-13T06:35:52.485Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5dc68cc4-04fe-4af1-b66e-6a66f430c31f",
+        "created_at": "2023-09-12T19:35:44.787Z",
+        "updated_at": "2023-09-12T16:30:52.380Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54ee26bf-bfa7-48c3-916f-089e75c6ed3e",
+        "created_at": "2023-09-13T09:20:40.605Z",
+        "updated_at": "2023-09-12T16:23:51.529Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "fa64ef95-b32d-4567-9fc9-3515b28deb84",
+        "game_status": "In progress",
+        "game_type": "Action",
+        "start_time": "2023-09-13T03:34:09.593Z",
+        "end_time": "2023-09-13T03:53:57.901Z",
+        "created_at": "2023-09-12T18:52:44.563Z",
+        "updated_at": "2023-09-13T08:19:47.592Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3c3abe22-e684-465a-a1e1-31a1950f42a2",
+        "game_status": "Completed",
+        "game_type": "Strategy",
+        "start_time": "2023-09-12T13:05:39.763Z",
+        "end_time": "2023-09-13T10:34:05.449Z",
+        "created_at": "2023-09-12T19:49:34.023Z",
+        "updated_at": "2023-09-13T03:20:28.488Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9c3aceeb-b8a3-4290-860b-56bc6d65eb05",
+        "game_status": "Cancelled",
+        "game_type": "Puzzle",
+        "start_time": "2023-09-13T09:02:00.876Z",
+        "end_time": "2023-09-12T14:25:46.064Z",
+        "created_at": "2023-09-13T02:58:02.360Z",
+        "updated_at": "2023-09-13T04:27:30.904Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5adcf723-920f-4e5f-b9db-a8123a5fc29f",
+        "game_status": "Pending",
+        "game_type": "Adventure",
+        "start_time": "2023-09-12T15:23:25.124Z",
+        "end_time": "2023-09-13T04:19:21.794Z",
+        "created_at": "2023-09-12T21:34:03.078Z",
+        "updated_at": "2023-09-12T19:11:00.976Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5f9144e0-2886-41a7-a15a-b49f355d5184",
+        "game_status": "On hold",
+        "game_type": "Sports",
+        "start_time": "2023-09-12T23:31:27.176Z",
+        "end_time": "2023-09-13T09:39:27.266Z",
+        "created_at": "2023-09-12T19:10:38.519Z",
+        "updated_at": "2023-09-13T00:36:04.275Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "e83d1621-f4da-4eb9-a5a8-7c07fd5d47a7",
+        "player_name": "Tom",
+        "created_at": "2023-09-12T16:42:06.173Z",
+        "updated_at": "2023-09-12T17:21:11.675Z",
+        "game_id": "fa64ef95-b32d-4567-9fc9-3515b28deb84",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7535c27-34d7-4e6e-8b25-fafd4b08f750",
+        "player_name": "Emily",
+        "created_at": "2023-09-13T05:24:42.043Z",
+        "updated_at": "2023-09-13T03:03:24.345Z",
+        "game_id": "9c3aceeb-b8a3-4290-860b-56bc6d65eb05",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4909b63-c080-4b3c-b212-5961443cc94f",
+        "player_name": "Jake",
+        "created_at": "2023-09-13T08:52:59.378Z",
+        "updated_at": "2023-09-13T05:15:38.260Z",
+        "game_id": "9c3aceeb-b8a3-4290-860b-56bc6d65eb05",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a90961fc-27bc-41b6-8c96-7d8c9510efbb",
+        "player_name": "Olivia",
+        "created_at": "2023-09-12T16:08:44.972Z",
+        "updated_at": "2023-09-13T11:42:18.389Z",
+        "game_id": "5f9144e0-2886-41a7-a15a-b49f355d5184",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72e47158-c54b-457d-85ba-464d04f7c950",
+        "player_name": "Max",
+        "created_at": "2023-09-12T15:16:44.047Z",
+        "updated_at": "2023-09-12T13:29:37.545Z",
+        "game_id": "5adcf723-920f-4e5f-b9db-a8123a5fc29f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1f205181-429a-407c-98e7-c4b3b57ac3da",
+        "email": "Lexi89@gmail.com",
+        "firstName": "Monique",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36069518",
+        "tenantId": null
+      },
+      {
+        "reference": "7c9c98dd-7189-4648-9ee7-8992ec781ebc",
+        "email": "Erika.Predovic22@gmail.com",
+        "firstName": "Weston",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32578107",
+        "tenantId": null
+      },
+      {
+        "reference": "3555ce19-5311-4e4f-b7b2-0089d7d515ea",
+        "email": "Rubie11@hotmail.com",
+        "firstName": "Stanford",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68154920",
+        "tenantId": null
+      },
+      {
+        "reference": "abc0b5bd-6089-4028-997f-001e08afd970",
+        "email": "Lindsay_Mertz77@hotmail.com",
+        "firstName": "Hailee",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2519015",
+        "tenantId": null
+      },
+      {
+        "reference": "fc0a4930-1c23-4aa2-95f0-ec8270eebcfa",
+        "email": "Lucas_McKenzie40@gmail.com",
+        "firstName": "Arnoldo",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96227542",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game_administrator": [
+      {
+        "id": "f65aad83-c739-4ec4-b6bc-c1c3b28128ff",
+        "created_at": "2023-09-12T23:49:38.978Z",
+        "updated_at": "2023-09-12T20:03:10.680Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e120cd5-9a0d-4ab8-b2a9-f8670d888056",
+        "created_at": "2023-09-12T19:13:13.222Z",
+        "updated_at": "2023-09-12T14:51:28.283Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d56ab180-cb4c-41ab-b697-c01493f71205",
+        "created_at": "2023-09-12T19:05:54.164Z",
+        "updated_at": "2023-09-12T13:43:50.525Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66901ce1-4ded-4ea7-8e3b-3aab2c356805",
+        "created_at": "2023-09-13T08:10:54.918Z",
+        "updated_at": "2023-09-12T23:19:06.050Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0ba39b9-c86d-43c4-bbda-95750eb9f881",
+        "created_at": "2023-09-13T12:05:27.277Z",
+        "updated_at": "2023-09-13T11:33:45.126Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "5d83d548-f83c-4add-b62c-e6cd3196c47a",
+        "game_status": "In progress",
+        "game_type": "Action",
+        "start_time": "2023-09-12T21:32:58.805Z",
+        "end_time": "2023-09-13T06:26:21.023Z",
+        "created_at": "2023-09-12T21:40:59.697Z",
+        "updated_at": "2023-09-12T19:55:27.857Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f1d8d766-198e-4270-8c5c-53dabb439974",
+        "game_status": "Completed",
+        "game_type": "Adventure",
+        "start_time": "2023-09-13T00:16:35.003Z",
+        "end_time": "2023-09-13T10:49:07.950Z",
+        "created_at": "2023-09-12T15:47:37.510Z",
+        "updated_at": "2023-09-13T05:15:14.779Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9dcaae9e-258e-4223-a950-9f3a5d7c55ac",
+        "game_status": "Paused",
+        "game_type": "Strategy",
+        "start_time": "2023-09-12T16:29:40.085Z",
+        "end_time": "2023-09-13T04:24:33.627Z",
+        "created_at": "2023-09-13T10:06:48.800Z",
+        "updated_at": "2023-09-12T15:48:47.825Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "47f0bc41-62e9-4dd4-b17b-78fe359251ed",
+        "game_status": "Cancelled",
+        "game_type": "Puzzle",
+        "start_time": "2023-09-13T11:56:22.627Z",
+        "end_time": "2023-09-13T11:55:47.950Z",
+        "created_at": "2023-09-12T23:15:03.278Z",
+        "updated_at": "2023-09-12T23:59:45.282Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6da7bae8-aadf-4713-8b5f-633083dd4282",
+        "game_status": "Upcoming",
+        "game_type": "Sports",
+        "start_time": "2023-09-12T13:47:33.414Z",
+        "end_time": "2023-09-13T05:31:00.865Z",
+        "created_at": "2023-09-12T19:25:23.815Z",
+        "updated_at": "2023-09-12T13:02:15.271Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "44059ac1-e935-4bae-a6a4-0ef08f680dab",
+        "player_name": "Player 1",
+        "created_at": "2023-09-12T12:54:36.872Z",
+        "updated_at": "2023-09-12T13:18:45.794Z",
+        "game_id": "6da7bae8-aadf-4713-8b5f-633083dd4282",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcaec939-cab2-462b-84c3-8e9ced8b14a7",
+        "player_name": "Player 2",
+        "created_at": "2023-09-12T16:41:39.072Z",
+        "updated_at": "2023-09-13T04:57:36.520Z",
+        "game_id": "5d83d548-f83c-4add-b62c-e6cd3196c47a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df49b028-a5bf-446b-9883-bb2b11b95568",
+        "player_name": "Player 3",
+        "created_at": "2023-09-13T08:49:31.608Z",
+        "updated_at": "2023-09-12T13:47:04.549Z",
+        "game_id": "f1d8d766-198e-4270-8c5c-53dabb439974",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93f85dd8-0c1f-4136-9a1d-9374b021cc2a",
+        "player_name": "Player 4",
+        "created_at": "2023-09-13T12:05:05.306Z",
+        "updated_at": "2023-09-12T12:26:17.330Z",
+        "game_id": "47f0bc41-62e9-4dd4-b17b-78fe359251ed",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c2d95a0-d1e4-416c-bb40-34328fd79296",
+        "player_name": "Player 5",
+        "created_at": "2023-09-12T19:07:27.964Z",
+        "updated_at": "2023-09-13T09:08:32.568Z",
+        "game_id": "5d83d548-f83c-4add-b62c-e6cd3196c47a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "29170df5-18d7-4eca-8cb2-fa292a7ab936",
+        "email": "Rylan20@yahoo.com",
+        "firstName": "Lane",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/599.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ef22b9d4-aef7-4b86-b18e-6d7d44ee6509",
+        "email": "Cordia.Ledner@yahoo.com",
+        "firstName": "Ernest",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12199433",
+        "tenantId": null
+      },
+      {
+        "reference": "78548e24-a42b-448a-a0ee-efe2adf63806",
+        "email": "Rubie.Miller@hotmail.com",
+        "firstName": "Winnifred",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/399.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c2c8fc4f-9ce3-4ce1-82b5-23a62768f4d1",
+        "email": "Katarina.Nitzsche@hotmail.com",
+        "firstName": "Franz",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/274.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bfad546e-e9c4-4403-83b8-5156d101a5a5",
+        "email": "Leonard81@hotmail.com",
+        "firstName": "Nadia",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88306850",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game_administrator": [
+      {
+        "id": "77eed782-b009-46c3-9f37-c5249ee93d19",
+        "created_at": "2023-09-12T17:39:44.224Z",
+        "updated_at": "2023-09-12T20:51:23.310Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df2eb6a6-01e4-4def-86e2-0153457b0bfc",
+        "created_at": "2023-09-13T04:41:20.237Z",
+        "updated_at": "2023-09-12T23:48:01.135Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66ce0e67-2e27-4659-a5aa-e693bc753035",
+        "created_at": "2023-09-12T19:02:31.980Z",
+        "updated_at": "2023-09-13T06:20:19.351Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3f055e6-fa81-4a56-a218-bdcd4361508c",
+        "created_at": "2023-09-12T12:38:35.025Z",
+        "updated_at": "2023-09-12T15:16:31.450Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39fa1d19-7cfe-4d15-8de7-f7550d0903f4",
+        "created_at": "2023-09-13T01:09:08.724Z",
+        "updated_at": "2023-09-13T11:33:42.015Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "2ccf4271-b18e-42f7-b59a-be52c1925e3f",
+        "game_status": "In progress",
+        "game_type": "Action",
+        "start_time": "2023-09-13T02:13:47.354Z",
+        "end_time": "2023-09-12T14:08:23.410Z",
+        "created_at": "2023-09-12T18:51:59.571Z",
+        "updated_at": "2023-09-12T16:14:57.389Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dfdd6ae5-4e78-40ac-8e85-69ce37cd0e7a",
+        "game_status": "Completed",
+        "game_type": "Strategy",
+        "start_time": "2023-09-12T15:42:37.384Z",
+        "end_time": "2023-09-12T16:30:39.020Z",
+        "created_at": "2023-09-13T03:01:44.008Z",
+        "updated_at": "2023-09-12T13:52:00.063Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "51fe455e-5dab-4448-98c1-cd0cb64b0e62",
+        "game_status": "Pending",
+        "game_type": "Adventure",
+        "start_time": "2023-09-13T07:52:46.768Z",
+        "end_time": "2023-09-13T00:13:23.728Z",
+        "created_at": "2023-09-13T12:06:04.590Z",
+        "updated_at": "2023-09-12T23:03:24.195Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "37f7afc3-23a3-41d4-819e-47058db62ba4",
+        "game_status": "Cancelled",
+        "game_type": "Sports",
+        "start_time": "2023-09-12T13:51:38.167Z",
+        "end_time": "2023-09-13T05:14:03.826Z",
+        "created_at": "2023-09-13T08:38:20.649Z",
+        "updated_at": "2023-09-13T02:21:32.717Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "33133e5c-b9fa-4a47-93bf-545b48e6a939",
+        "game_status": "Paused",
+        "game_type": "Puzzle",
+        "start_time": "2023-09-13T01:12:47.398Z",
+        "end_time": "2023-09-13T10:11:28.309Z",
+        "created_at": "2023-09-13T04:00:10.485Z",
+        "updated_at": "2023-09-12T21:08:43.097Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "b57accbb-7f1e-40d4-ad36-54e2767e221d",
+        "player_name": "Alex",
+        "created_at": "2023-09-12T12:35:45.355Z",
+        "updated_at": "2023-09-13T08:33:45.506Z",
+        "game_id": "37f7afc3-23a3-41d4-819e-47058db62ba4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2321cc33-3ad4-47d8-9b6d-1d32c12703dd",
+        "player_name": "Olivia",
+        "created_at": "2023-09-12T15:10:30.106Z",
+        "updated_at": "2023-09-12T21:27:42.439Z",
+        "game_id": "37f7afc3-23a3-41d4-819e-47058db62ba4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e24c9ca1-7e5d-4d6a-9bab-19221188e002",
+        "player_name": "Ethan",
+        "created_at": "2023-09-13T00:08:02.513Z",
+        "updated_at": "2023-09-12T19:24:40.134Z",
+        "game_id": "2ccf4271-b18e-42f7-b59a-be52c1925e3f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "794a82bf-36af-42d5-8a67-74c60e0726fc",
+        "player_name": "Sophia",
+        "created_at": "2023-09-13T00:03:49.855Z",
+        "updated_at": "2023-09-13T10:39:03.465Z",
+        "game_id": "2ccf4271-b18e-42f7-b59a-be52c1925e3f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79f60675-ccbf-440f-98f6-4958bb3520d6",
+        "player_name": "Noah",
+        "created_at": "2023-09-13T06:54:28.020Z",
+        "updated_at": "2023-09-13T12:07:31.202Z",
+        "game_id": "2ccf4271-b18e-42f7-b59a-be52c1925e3f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "eb525e4a-3e55-4f28-95c6-1f167048394a",
+        "email": "Eulah76@hotmail.com",
+        "firstName": "Camila",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28418652",
+        "tenantId": null
+      },
+      {
+        "reference": "27f9bd30-dbc1-4264-8460-92a422c75716",
+        "email": "Suzanne.Larkin52@gmail.com",
+        "firstName": "Aurelio",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25793191",
+        "tenantId": null
+      },
+      {
+        "reference": "7e641983-4ac7-465e-a70c-09a210f83df5",
+        "email": "Johnnie12@yahoo.com",
+        "firstName": "Moriah",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1006.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0ef15309-a94e-4577-88a8-2f97eebe1902",
+        "email": "Bobbie_Oberbrunner@hotmail.com",
+        "firstName": "Helene",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/526.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6dce676e-79f0-42db-811b-4f3aa549be6d",
+        "email": "Colleen72@hotmail.com",
+        "firstName": "Lora",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/34.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game_administrator": [
+      {
+        "id": "79caca19-6e83-4ad6-bece-ddb47be74e32",
+        "created_at": "2023-09-13T09:05:01.112Z",
+        "updated_at": "2023-09-13T08:45:02.848Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d72deda4-f9f4-4d20-a5bb-82ac2a7c43b3",
+        "created_at": "2023-09-12T15:32:24.834Z",
+        "updated_at": "2023-09-12T17:11:13.800Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97a10e7f-b039-4043-aca9-0107f44e6bd6",
+        "created_at": "2023-09-13T02:29:48.599Z",
+        "updated_at": "2023-09-13T00:45:49.352Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de9d1fd6-f067-4025-9e3e-01aa7f6edd21",
+        "created_at": "2023-09-13T11:18:25.444Z",
+        "updated_at": "2023-09-13T12:06:26.028Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3434daa6-ac89-40f2-93a6-650f76ab975c",
+        "created_at": "2023-09-12T19:43:07.148Z",
+        "updated_at": "2023-09-12T22:30:03.516Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "5b588544-0dc2-4ca0-9fe5-79060c2b6649",
+        "game_status": "In progress",
+        "game_type": "Action",
+        "start_time": "2023-09-12T15:03:22.043Z",
+        "end_time": "2023-09-13T03:55:42.760Z",
+        "created_at": "2023-09-13T05:51:49.764Z",
+        "updated_at": "2023-09-12T20:04:57.924Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "550b50ec-41c7-46a1-80ea-be4296b2d4aa",
+        "game_status": "Completed",
+        "game_type": "Strategy",
+        "start_time": "2023-09-12T15:42:32.579Z",
+        "end_time": "2023-09-12T16:44:11.491Z",
+        "created_at": "2023-09-13T11:47:29.042Z",
+        "updated_at": "2023-09-12T14:52:06.899Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cad8b12c-0b41-4291-8dbc-b199060922db",
+        "game_status": "Cancelled",
+        "game_type": "Adventure",
+        "start_time": "2023-09-12T21:08:13.265Z",
+        "end_time": "2023-09-12T22:15:00.634Z",
+        "created_at": "2023-09-12T20:25:15.400Z",
+        "updated_at": "2023-09-13T03:28:12.385Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fc0c5a77-92a9-4465-84b5-b67f41b8c87f",
+        "game_status": "Paused",
+        "game_type": "Sports",
+        "start_time": "2023-09-13T01:59:05.053Z",
+        "end_time": "2023-09-13T05:14:52.089Z",
+        "created_at": "2023-09-13T10:54:55.004Z",
+        "updated_at": "2023-09-13T01:11:17.834Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "46f38394-478a-44aa-a5d0-1e4cf3b154c5",
+        "game_status": "Waiting",
+        "game_type": "Puzzle",
+        "start_time": "2023-09-13T09:54:53.680Z",
+        "end_time": "2023-09-13T08:10:50.748Z",
+        "created_at": "2023-09-13T04:54:54.216Z",
+        "updated_at": "2023-09-12T17:41:44.479Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "a663f16e-b088-4b7c-9776-31242c00c82d",
+        "player_name": "John",
+        "created_at": "2023-09-13T08:21:59.266Z",
+        "updated_at": "2023-09-12T15:48:18.543Z",
+        "game_id": "cad8b12c-0b41-4291-8dbc-b199060922db",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5900d8ba-a013-4216-b65f-cd9be43f9e44",
+        "player_name": "Jane",
+        "created_at": "2023-09-13T04:57:12.670Z",
+        "updated_at": "2023-09-12T14:57:17.337Z",
+        "game_id": "46f38394-478a-44aa-a5d0-1e4cf3b154c5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "399df385-9958-4311-9a20-fc2a75b8f43f",
+        "player_name": "Mike",
+        "created_at": "2023-09-13T03:10:19.479Z",
+        "updated_at": "2023-09-12T12:37:44.851Z",
+        "game_id": "fc0c5a77-92a9-4465-84b5-b67f41b8c87f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3356927b-71c6-422f-a1e9-24ca866550e2",
+        "player_name": "Sarah",
+        "created_at": "2023-09-12T16:10:42.449Z",
+        "updated_at": "2023-09-13T01:22:01.325Z",
+        "game_id": "cad8b12c-0b41-4291-8dbc-b199060922db",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d64fefdf-aafa-4b3f-83bc-e3592807c07f",
+        "player_name": "David",
+        "created_at": "2023-09-12T17:34:12.120Z",
+        "updated_at": "2023-09-13T11:41:10.681Z",
+        "game_id": "fc0c5a77-92a9-4465-84b5-b67f41b8c87f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b944b50c-7240-4d3a-857a-2c5be830ec4f",
+        "email": "Lulu.Tillman@hotmail.com",
+        "firstName": "Alf",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75223060",
+        "tenantId": null
+      },
+      {
+        "reference": "e0a31ba0-d92a-4335-b583-e2c737861510",
+        "email": "Mitchell_Koch@yahoo.com",
+        "firstName": "Otilia",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40663248",
+        "tenantId": null
+      },
+      {
+        "reference": "70cdfb65-304f-41be-94b1-545db6293f9f",
+        "email": "Amelia28@gmail.com",
+        "firstName": "Ramiro",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/444.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d22bc0e9-ac48-4ff8-87f0-5e16d455de27",
+        "email": "Chesley61@hotmail.com",
+        "firstName": "Cecilia",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88101246",
+        "tenantId": null
+      },
+      {
+        "reference": "9a253cc0-ec7d-4fd8-b70d-6e84059b59e8",
+        "email": "Jaylan_McKenzie@hotmail.com",
+        "firstName": "Keegan",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68898713",
+        "tenantId": null
+      }
+    ]
+  }
+]
